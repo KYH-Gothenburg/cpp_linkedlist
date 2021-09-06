@@ -85,8 +85,10 @@ public:
     friend ostream & operator <<(ostream &os, const LinkedList<T> &list);
 
     // Methods like push, pop, and clear
+    // **** ADD THEM! *****
 
     // Getters and setters
+    // **** ADD THEM ****
 private:
     Node<T> *head_;
     Node<T> *tail_;
